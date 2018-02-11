@@ -1,8 +1,7 @@
 // Your code goes here:
-let clickThumbnail = function(event){
+let clickThumbnail = function(){
 
   let theThumbnailImage = jQuery(event.target)
-  // window.alert("PICKLE RICK")
   console.log(theThumbnailImage.attr("src"))
   jQuery("#main-image").attr("src",theThumbnailImage.attr("src"))
 
